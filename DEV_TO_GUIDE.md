@@ -273,7 +273,7 @@ The script stores your sudo password in plain text in the configuration file. Fo
 
 ## 🎯 Configuration Tips
 
-- **Conservative thresholds**: Start with 20% for low and 85% for high
+- **Conservative thresholds**: Start with 40% for low and 80% for high
 - **Adjust notification timeout**: Increase `NOTIFICATION_TIMEOUT` if you need more time to see notifications
 - **Battery path**: Make sure `BATTERY_PATH` points to your actual battery (check `/sys/class/power_supply/`)
 
@@ -290,4 +290,3 @@ The script runs every minute via cron and automatically protects your battery he
 ---
 
 **🔗 Complete Repository**: [AutoBattOff on GitHub](https://github.com/pefbrute/AutoBattOff) - Ready to download and use!
-**🏷️ Tags**: `#linux` `#ubuntu` `#bash` `#battery` `#automation` `#systemadmin`
