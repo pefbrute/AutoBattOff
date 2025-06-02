@@ -31,6 +31,22 @@ All script settings are moved to a separate configuration file for easy modifica
 2. Run `./autobattoff.sh`
 3. The script will automatically load settings from the configuration
 
+## Automation with Cron:
+To run the battery check automatically every minute, add the following line to your crontab:
+
+```bash
+# Edit crontab
+crontab -e
+
+# Add this line (replace with your actual script path):
+* * * * * /bin/bash "/path/to/your/autobattoff.sh"
+
+# Example:
+* * * * * /bin/bash "/home/fedor/AutoBattOff/autobattoff.sh"
+```
+
+This will check the battery status every minute and take appropriate actions based on your configuration.
+
 ## Recommendations:
 - Don't store passwords in plain text
 - Set access permissions for the configuration file: `chmod 600 battery_config.env` 
