@@ -1,4 +1,4 @@
-# 🔋 Smart Battery Monitoring Script for Linux: Protect Your Laptop from Overcharging and Deep Discharge
+# How to Make Your Linux Laptop Auto-Shutdown and Show Notifications Based on Battery Level?
 
 **⚠️ Tested on Ubuntu 22.04 with X Server - May require adjustments for other distributions**
 
@@ -290,4 +290,4 @@ The script runs every minute via cron and automatically protects your battery he
 ---
 
 **🔗 Complete Repository**: [AutoBattOff on GitHub](https://github.com/pefbrute/AutoBattOff) - Ready to download and use!
-**🏷️ Tags**: `#linux` `#ubuntu` `#bash` `#battery` `#automation` `#systemadmin` 
+**🏷️ Tags**: `#linux` `#ubuntu` `#bash` `#battery` `#automation` `#systemadmin`
